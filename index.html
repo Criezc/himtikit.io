@@ -21,7 +21,7 @@
     <meta name="keywords" content="HIMTI KIT" />
     <meta name="author" content="HIMTI Web Division" />
     <link href="./style.css" type="text/css" rel="stylesheet prerender" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="/aos.css" rel="stylesheet" />
 
     <style>
       #menu-toggle:checked + #menu {
@@ -273,56 +273,102 @@
         rel="noreferrer noopener"
         class="icon-bg"
       >
-        <img src="./images/icon/bimob.png" alt="bimob-icon" class="icon-img" />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/bimob.webp" />
+          <source type="image/png" srcset="./images/icon/bimob.png" />
+
+          <img
+            src="./images/icon/bimob.png"
+            alt="bimob-icon"
+            class="icon-img"
+          />
+        </picture>
         <h1 class="icon-default">BINUS MOBILE<br />For Students</h1>
       </a>
       <a href="#" title="java" rel="noreferrer noopener" class="icon-bg">
-        <img src="./images/icon/java.png" alt="java-icon" class="icon-img" />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/java.webp" />
+          <source type="image/png" srcset="./images/icon/java.png" />
+          <img src="./images/icon/java.png" alt="java-icon" class="icon-img" />
+        </picture>
         <h1 class="icon-default">Java JDK</h1>
       </a>
       <a href="#" title="DEV C" rel="noreferrer noopener" class="icon-bg">
-        <img src="./images/icon/devc.png" alt="dev-icon" class="icon-img" />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/devc.webp" />
+          <source type="image/png" srcset="./images/icon/devc.png" />
+
+          <img src="./images/icon/devc.png" alt="dev-icon" class="icon-img" />
+        </picture>
         <h1 class="icon-default">DEV C++<br />(Orwell)</h1>
       </a>
       <a href="#" title="ATOM" rel="noreferrer noopener" class="icon-bg">
-        <img src="./images/icon/atom.png" alt="atom-icon" class="icon-img" />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/atom.webp" />
+          <source type="image/png" srcset="./images/icon/atom.png" />
+          <img src="./images/icon/atom.png" alt="atom-icon" class="icon-img" />
+        </picture>
         <h1 class="icon-default">ATOM</h1>
       </a>
       <a href="#" title="MS-Team" rel="noreferrer noopener" class="icon-bg">
-        <img
-          src="./images/icon/msteam.png"
-          alt="msteam-icon"
-          class="icon-img"
-        />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/msteam.webp" />
+          <source type="image/png" srcset="./images/icon/msteam.png" />
+          <img
+            src="./images/icon/msteam.png"
+            alt="msteam-icon"
+            class="icon-img"
+          />
+        </picture>
         <h1 class="icon-default">
           Microsoft<br />
           Teams
         </h1>
       </a>
       <a href="#" title="M Outlook" rel="noreferrer noopener" class="icon-bg">
-        <img
-          src="./images/icon/outlook.png"
-          alt="outlook-icon"
-          class="icon-img"
-        />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/outlook.webp" />
+          <source type="image/png" srcset="./images/icon/outlook.png" />
+          <img
+            src="./images/icon/outlook.png"
+            alt="outlook-icon"
+            class="icon-img"
+          />
+        </picture>
         <h1 class="icon-default">
           Microsoft<br />
           Outlook
         </h1>
       </a>
       <a href="#" title="Python" rel="noreferrer noopener" class="icon-bg">
-        <img
-          src="./images/icon/python.png"
-          alt="python-icon"
-          class="icon-img"
-        />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/python.webp" />
+          <source type="image/png" srcset="./images/icon/python.png" />
+          <img
+            src="./images/icon/python.png"
+            alt="python-icon"
+            class="icon-img"
+          />
+        </picture>
         <h1 class="icon-default">Python</h1>
       </a>
       <a href="#" title="Node.Js" rel="noreferrer noopener" class="icon-bg">
-        <img src="./images/icon/node.png" alt="node-icon" class="icon-img" />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/node.webp" />
+          <source type="image/png" srcset="./images/icon/node.png" />
+          <img src="./images/icon/node.png" alt="node-icon" class="icon-img" />
+        </picture>
         <h1 class="icon-default">Node</h1>
       </a>
       <a href="#" title="ECLIPSE" rel="noreferrer noopener" class="icon-bg">
+        <source
+          type="image/webp"
+          srcset="./images/icon/eclipse_adobespark.webp"
+        />
+        <source
+          type="image/png"
+          srcset="./images/icon/eclipse_adobespark.png"
+        />
         <img
           src="./images/icon/eclipse_adobespark.png"
           alt="eclipse-icon"
@@ -331,19 +377,38 @@
         <h1 class="icon-default">Eclipse</h1>
       </a>
       <a href="#" title="xcode" rel="noreferrer noopener" class="icon-bg">
-        <img src="./images/icon/xcode.png" alt="xcode-icon" class="icon-img" />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/xcode.webp" />
+          <source type="image/png" srcset="./images/icon/xcode.png" />
+          <img
+            src="./images/icon/xcode.png"
+            alt="xcode-icon"
+            class="icon-img"
+          />
+        </picture>
         <h1 class="icon-default">Xcode</h1>
       </a>
       <a href="#" title="Geany" rel="noreferrer noopener" class="icon-bg">
-        <img src="./images/icon/geany.ico" alt="geany-icon" class="icon-img" />
+        <picture>
+          <source type="image/ico" srcset="./images/icon/geany.ico" />
+          <img
+            src="./images/icon/geany.ico"
+            alt="geany-icon"
+            class="icon-img"
+          />
+        </picture>
         <h1 class="icon-default">Geany</h1>
       </a>
       <a href="#" title="VS code" rel="noreferrer noopener" class="icon-bg">
-        <img
-          src="./images/icon/vscode.png"
-          alt="vscode-icon"
-          class="icon-img"
-        />
+        <picture>
+          <source type="image/webp" srcset="./images/icon/vscode.webp" />
+          <source type="image/png" srcset="./images/icon/vscode.png" />
+          <img
+            src="./images/icon/vscode.png"
+            alt="vscode-icon"
+            class="icon-img"
+          />
+        </picture>
         <h1 class="icon-default">VS Code</h1>
       </a>
     </div>
@@ -454,16 +519,12 @@
         </p>
       </div>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./aos.js"></script>
     <script>
       AOS.init();
     </script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"
-      integrity="sha256-icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg="
-      crossorigin="anonymous"
-    ></script>
+    <script src="./particles.min.js"></script>
     <script>
       particlesJS.load("particles-js", "particlejs.json", function () {
         console.log("particles.json loaded");
