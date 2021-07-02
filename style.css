@@ -556,10 +556,6 @@ video {
 
 .nav-list {
   display: block;
-  border-width: 2px;
-  border-color: transparent;
-  --tw-border-opacity: 1;
-  border-color: rgba(12, 2, 23, var(--tw-border-opacity));
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 0.75rem;

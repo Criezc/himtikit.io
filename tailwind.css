@@ -9,11 +9,8 @@
         py-3
         px-0
         block
-        border-darkblue 
-        border-transparent
         transition-all
         duration-200
-        border-2
         hover:text-red-300;
   }
 
