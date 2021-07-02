@@ -21,12 +21,16 @@
     @apply container mx-auto flex flex-col justify-center items-center;
   }
 
+  .wrapper-res {
+    @apply container mx-auto flex flex-col lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0 my-20;
+  }
+
   .text-default {
     @apply text-white text-center text-lg font-extrabold md:text-lg lg:text-xl xl:text-2xl mt-6;
   }
 
   .img-default {
-    @apply cursor-pointer w-48 lg:w-full mx-auto border-white border-2 hover:-translate-y-2 transition transform duration-200;
+    @apply cursor-pointer mx-auto border-white border-2 hover:-translate-y-2 transition transform duration-200 w-64 lg:w-full;
   }
 
   .icon-bg {
@@ -42,25 +46,24 @@
   }
 
   .wrapper-maps {
-    @apply container mx-auto grid grid-cols-1 md:grid-cols-2;
+    @apply container mx-auto grid grid-cols-1 lg:grid-cols-2;
   }
 
   .footer-icon {
     @apply md:w-12 md:h-12 w-9 h-9 md:mx-2 hover:-translate-y-2 transform transition duration-200;
   }
+
+  .hero-image {
+    @apply animate-pulse mb-20 lg:mb-40 shadow-new;
+  }
+
+  #particles-js {
+    @apply h-full w-full inset-0 absolute -z-1;
+  }
 }
 
-.maps {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+.hero-image {
+  border-radius: 1.5rem;
 }
 
-.maps iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
+/* ---- particles.js container ---- */
