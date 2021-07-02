@@ -43,7 +43,7 @@
   }
 
   .wrapper-maps {
-    @apply container mx-auto grid grid-cols-1 lg:grid-cols-2;
+    @apply container mx-auto grid grid-cols-1 lg:grid-cols-2 px-5 space-x-10;
   }
 
   .footer-icon {
