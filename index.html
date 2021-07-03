@@ -21,7 +21,10 @@
     <meta name="keywords" content="HIMTI KIT" />
     <meta name="author" content="HIMTI Web Division" />
     <link href="./style.css" type="text/css" rel="stylesheet prerender" />
-    <link href="/aos.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet preconnect"
+    />
 
     <style>
       #menu-toggle:checked + #menu {
@@ -431,7 +434,7 @@
         ></iframe>
       </div>
       <div
-        class="container mx-auto px-5"
+        class="container mx-auto lg:px-5"
         data-aos="fade-up"
         data-aos-delay="300"
       >
@@ -440,6 +443,7 @@
             flex flex-row
             mx-auto
             justify-center
+            items-center
             lg:justify-start
             container
             py-5
@@ -519,8 +523,8 @@
         </p>
       </div>
     </footer>
-    <script src="./aos.js"></script>
     <script src="./particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
